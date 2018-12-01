@@ -1,0 +1,5 @@
+	mavg(5m, deriv(interpolate(lag(2m, ts(smh.smh_process_tot_execution_timeus_of_sme and cloud=zscloud.net and datacenter=DFW1 and ver=2.0)))))/10000 > 95 or
+(mavg(5m, deriv(interpolate(lag(2m, ts(smh.smh_process_tot_execution_timeus_of_av and cloud=zscloud.net and datacenter=DFW1 and ver=2.0)))))/10000 > 95 and
+mavg(5m, deriv(interpolate(lag(2m, ts(smh.smh_process_tot_execution_timeus_of_av2 and cloud=zscloud.net and datacenter=DFW1 and ver=2.0)))))/10000 > 95)
+
+mavg(5m, deriv(interpolate(lag(2m, ts(smh.smh_process_tot_execution_timeus_of_sme and cloud=zscloud.net and datacenter=DFW1 and ver=2.0)))))/10000
